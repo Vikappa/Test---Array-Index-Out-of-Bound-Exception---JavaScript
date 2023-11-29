@@ -1,0 +1,1 @@
+// Voglio vedere se riducendo la dimensione di un Array durante l'esecuzione di un ciclo for che deve iterarsi per array.length volte questo ciclo da errore, oppure se array.length si aggiorna in corso d'opera
