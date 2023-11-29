@@ -120,7 +120,7 @@ console.log(" ")
 console.log(" ")
 console.log("Controllo array prima fare alcuna operazione:")
 console.log("Array starWarsCharacters, length: [" + starWarsCharacters.length + "] <--- valore reale richiamato dalla memoria e non scritto in stringa console.log");
-console.log("Array starWarsFemaleCharacters, length: [" + starWarsCharacters.length + "] <--- valore reale richiamato dalla memoria e non scritto in stringa console.log");
+console.log("Array starWarsFemaleCharacters, length: [" + starWarsFemaleCharacters.length + "] <--- valore reale richiamato dalla memoria e non scritto in stringa console.log");
 
 
 for (let index = 0; index < starWarsCharacters.length; index++) {
