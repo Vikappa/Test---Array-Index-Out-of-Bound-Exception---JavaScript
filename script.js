@@ -129,7 +129,7 @@ for (let index = 0; index < starWarsCharacters.length; index++) {
         console.log("confronto corrente: ", confronto, "index:", index, "indexF:", indexF, ">Sto per fare il confronto if(starWarsCharacters[index aka " + index + "].name === starWarsFemaleCharacters[indexF aka " + indexF + "].name")
         if (starWarsCharacters[index].name === starWarsFemaleCharacters[indexF].name) {
             console.log('%cRISCONTRO', 'color: red');
-            console.log("Riscontata ugualianza tra (starWarsCharacters[" + index + "]name e starWarsFemaleCharacters[" + indexF + "].name, Stringa:" + starWarsFemaleCharacters[indexF].name)
+            console.log("Riscontata ugualianza tra (starWarsCharacters[" + index + "].name e starWarsFemaleCharacters[" + indexF + "].name, Stringa:" + starWarsFemaleCharacters[indexF].name)
             console.log("Eseguo lo .splice(index=" + index + ",1) su starWarsCharacters")
             starWarsCharacters.splice(index, 1)
             console.log("Array starWarsCharacters, length: [" + starWarsCharacters.length + "] <--- valore reale richiamato dalla memoria e non scritto in stringa console.log");
