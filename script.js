@@ -143,3 +143,7 @@ for (let index = 0; index < starWarsCharacters.length; index++) {
 
 
 console.log("Fine senza errori")
+console.log("Conclusione Test 1: Credo che siccome in JavaScript non esiste la differenza tra memoria fissa e memoria in tempo di esecuzione le firme dei cicli for sono aggiornate in tempo reale, per cui usando .splice(index, sistema decimale aka 10) sull'array quello si accorcia facendo scorrere gli ultimi elementi")
+console.log("Essendosi accorciata la array.length in seguito allo splice")
+
+console.log("Seguiranno esperimenti su .delete() e forzature del index bound hardcoded
