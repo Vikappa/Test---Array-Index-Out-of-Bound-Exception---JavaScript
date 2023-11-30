@@ -105,9 +105,6 @@ const starWarsCharacters = [
     },
 ]
 
-console.log("Farò ciclare l'array starWarsCharacters. Dentro ogni iterazione del ciclo, faccio ciclare un secondo ciclo for che scorre starWarsFemaleCharacters. Se il personaggio è presente in entrambi gli array il confronto che sta dentro il secondo ciclo for eliminerà l'elemento dal ciclo iniziale.")
-console.log("Utilizzerò i nomi index per starWarsCharacters e indexF per starWarsFemaleCharacters. In ogni iterazione riporterò gli indi correnti")
-console.log("In una variabile esterna chiamata 'confronto' conterò le iterazioni dei due cicli")
 let starWarsFemaleCharacters = []
 let confronto = 0
 for (let i = 0; i < starWarsCharacters.length; i++) {
@@ -143,3 +140,7 @@ for (let index = 0; index < starWarsCharacters.length; index++) {
 
 
 console.log("Fine senza errori")
+console.log("Conclusione Test 1: Credo che siccome in JavaScript non esiste la differenza tra memoria fissa e memoria in tempo di esecuzione le firme dei cicli for sono aggiornate in tempo reale, per cui usando .splice(index, sistema decimale aka 10) sull'array quello si accorcia facendo scorrere gli ultimi elementi")
+console.log("Essendosi accorciata la array.length in seguito allo splice")
+
+console.log("Seguiranno esperimenti su .delete() e forzature del index bound hardcoded")
